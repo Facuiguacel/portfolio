@@ -4,6 +4,8 @@ import styles from "../styles/layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
+import { SiGithub, SiLinkedin } from "react-icons/si";
+
 const name = "Facundo";
 export const siteTitle = "Facundo Iguacel";
 
@@ -27,7 +29,26 @@ export default function Layout({ children, home }) {
               alt={name}
             /> */}
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
+
             <h2 className={utilStyles.headingMd}>Desarrollador front-end</h2>
+
+            <div className={styles.personalLinks}>
+              <Link href="https://github.com/Facuiguacel">
+                <a>
+                  <SiGithub size={32} />
+                </a>
+              </Link>
+              <Link href="https://www.linkedin.com/in/facuiguacel">
+                <a>
+                  <SiLinkedin size={32} />
+                </a>
+              </Link>
+              <Link href="https://drive.google.com/file/d/17YJKX67B0BFcgPnygnH92HrgLn8ll00T/view?usp=sharing">
+                <a>
+                  <text style={{ fontWeight: "bold" }}>CV</text>
+                </a>
+              </Link>
+            </div>
           </>
         ) : (
           <>

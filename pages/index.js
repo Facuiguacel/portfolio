@@ -1,17 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-import {
-  SiReact,
-  SiExpress,
-  SiNodedotjs,
-  SiMysql,
-  SiNextdotjs,
-  SiJavascript,
-  SiHtml5,
-  SiCss3,
-  SiGithub,
-} from "react-icons/si";
+import { SiReact, SiExpress, SiNodedotjs, SiMysql, SiNextdotjs, SiJavascript, SiHtml5, SiCss3 } from "react-icons/si";
 
 import Layout, { siteTitle } from "../components/layout";
 import styles from "../styles/Home.module.css";
@@ -22,12 +12,13 @@ export default function Home() {
   return (
     <>
       <div style={{ backgroundColor: "black", color: "white", textAlign: "center" }}>SITIO AÚN EN CONSTRUCCIÓN</div>
+
       <Layout home>
         <Head>
           <title>{siteTitle}</title>
         </Head>
         <section className={utilStyles.headingMd}>
-          <p>Hola! Soy Facu, desarrolador front-end con conocimientos de back-end.</p>
+          <p>Hola! Soy Facu, desarrollador front-end con conocimientos de back-end.</p>
         </section>
         <h2 className={utilStyles.headingXl}>Trabajos</h2>
         <section>
@@ -46,6 +37,7 @@ export default function Home() {
             techs={["HTML", "CSS", "MySQL"]}
           />
         </section>
+
         <h2 className={utilStyles.headingXl}>Herramientas</h2>
         <section className={styles.grid}>
           <SiReact size={100} />

@@ -1,6 +1,6 @@
 import React from "react";
 
-function TechBadge({ title }) {
+function TechTag({ title }) {
   return (
     <div
       style={{
@@ -16,4 +16,4 @@ function TechBadge({ title }) {
   );
 }
 
-export default TechBadge;
+export default TechTag;
