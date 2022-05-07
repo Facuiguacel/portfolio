@@ -13,3 +13,9 @@
 .backToHome {
   margin: 3rem 0 0;
 }
+
+.personalLinks {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
