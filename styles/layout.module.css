@@ -16,6 +16,13 @@
 
 .personalLinks {
   display: flex;
+  position: relative;
   width: 200px;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.personalLinks a {
+  display: flex;
 }
