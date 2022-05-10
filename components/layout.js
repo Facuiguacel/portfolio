@@ -6,7 +6,7 @@ import Link from "next/link";
 
 import { SiGithub, SiLinkedin } from "react-icons/si";
 
-const name = "Facundo";
+const name = "Facundo Iguacel";
 export const siteTitle = "Facundo Iguacel";
 
 export default function Layout({ children, home }) {
@@ -20,17 +20,9 @@ export default function Layout({ children, home }) {
       <header className={styles.header}>
         {home ? (
           <>
-            {/* <Image
-              priority
-              src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
-              height={144}
-              width={144}
-              alt={name}
-            /> */}
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
 
-            <h2 className={utilStyles.headingMd}>Desarrollador front-end</h2>
+            <h2 className={utilStyles.headingMd}>Desarrollador Front-end</h2>
 
             <div className={styles.personalLinks}>
               <Link href="https://github.com/Facuiguacel">
@@ -45,7 +37,7 @@ export default function Layout({ children, home }) {
               </Link>
               <Link href="https://drive.google.com/file/d/17YJKX67B0BFcgPnygnH92HrgLn8ll00T/view?usp=sharing">
                 <a>
-                  <text style={{ fontWeight: "bold" }}>CV</text>
+                  <strong style={{ fontSize: "28px" }}>CV</strong>
                 </a>
               </Link>
             </div>

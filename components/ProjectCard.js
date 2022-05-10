@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import styles from "../styles/card.module.css";
 import utilStyles from "../styles/utils.module.css";
-import TechTag from "./TechTag";
+import TechTag from "./techTag";
 
 function ProjectCard({ title, description, image, href, techs = [] }) {
   return (
