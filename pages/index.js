@@ -5,7 +5,7 @@ import { SiReact, SiExpress, SiNodedotjs, SiMysql, SiNextdotjs, SiJavascript, Si
 import Layout, { siteTitle } from "../components/layout";
 import styles from "../styles/Home.module.css";
 import utilStyles from "../styles/utils.module.css";
-import ProjectCard from "../components/projectCard";
+import ProjectCard from "../components/ProjectCard";
 import Tech from "../components/tech";
 
 const BlackBar = ({ text, textColor = "white" }) => (
