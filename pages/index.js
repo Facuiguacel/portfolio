@@ -64,14 +64,22 @@ export default function Home() {
             title="Visor del clima"
             image="/images/weather-visor.png"
             href="https://weather-visor.vercel.app"
-            description="Consulta el clima de una ciudad especifica."
+            description="Consultá el clima de una ciudad especifica. (100% por mí)"
             techs={["React", "Bootstrap", "Axios", "API"]}
+          />
+          <ProjectCard
+            title="ANYMO"
+            image="/images/anymo-momentos.png"
+            href="https://github.com/TobiasVodo/Proyecto-Sobrestock"
+            description="MVP del TP final de la universidad. 'E-Commerce' de cajas temáticas que aprovechan productos de sobre-stock. (En equipo)"
+            techs={["React", "Express", "Axios", "MySQL", "Bootstrap"]}
+            favicon={"/images/anymo.ico"}
           />
           <ProjectCard
             title="Capitán Sarmiento"
             image="/images/capitan-sarmiento.png"
             href="https://capitansarmiento.gob.ar"
-            description="Sitio web de la Municipalidad de Capitán Sarmiento."
+            description="Sitio web de la Municipalidad de Capitán Sarmiento. (Mantenimiento y nuevas funcionalidades)"
             techs={["HTML", "CSS", "Wordpress", "MySQL"]}
           />
         </section>
