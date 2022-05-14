@@ -25,4 +25,20 @@
 
 .personalLinks a {
   display: flex;
+  width: max-content;
+  position: relative;
+}
+.personalLinks a::before {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: black;
+  top: -7px;
+  position: absolute;
+  transform: scaleX(0%);
+  transition: transform 0.1s linear;
+  transform-origin: left;
+}
+.personalLinks a:hover::before {
+  transform: scaleX(100%);
 }

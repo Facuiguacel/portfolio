@@ -15,7 +15,7 @@ const BlackBar = ({ text, textColor = "white" }) => (
 let techIconSize = 128;
 const tech = [
   {
-    description: "+1 año de exp. en el actual puesto.\n+5 proyectos individuales y en equipo.",
+    description: "+1 año de experiencia.\n+5 proyectos individuales y en equipo.",
     title: "React",
     icon: <SiReact size={techIconSize} />,
   },
@@ -54,8 +54,8 @@ export default function Home() {
         </Head>
         <section>
           <div className={utilStyles.headingMd}>
-            Hola! Soy <strong>Facu</strong>, un <i>casi</i> Técnico en Desarrollo de Software apasionado por el
-            front-end y la creación de UIs bonitas, simples e intuitivas.
+            Hola! Soy <strong>Facu</strong>, un apasionado por el desarrollo de software, en especial el front-end y la
+            creación de UIs bonitas, simples e intuitivas.
           </div>
         </section>
         <h2 className={utilStyles.headingXl}>Trabajos</h2>
@@ -71,7 +71,7 @@ export default function Home() {
             title="ANYMO"
             image="/images/anymo-momentos.png"
             href="https://github.com/TobiasVodo/Proyecto-Sobrestock"
-            description="MVP del TP final de la universidad. 'E-Commerce' de cajas temáticas que aprovechan productos de sobre-stock. (En equipo)"
+            description="MVP del trabajo final de la universidad. 'E-Commerce' de cajas temáticas que aprovechan productos de sobre-stock. (En equipo)"
             techs={["React", "Express", "Axios", "MySQL", "Bootstrap"]}
             favicon={"/images/anymo.ico"}
           />
@@ -80,18 +80,19 @@ export default function Home() {
             image="/images/capitan-sarmiento.png"
             href="https://capitansarmiento.gob.ar"
             description="Sitio web de la Municipalidad de Capitán Sarmiento. (Mantenimiento y nuevas funcionalidades)"
-            techs={["HTML", "CSS", "Wordpress", "MySQL"]}
+            techs={["HTML", "CSS", "WordPress", "MySQL"]}
           />
         </section>
 
         <h2 className={utilStyles.headingXl}>
-          Herramientas <i className={styles.mobileVisible}>(tap para más info)</i>
+          Herramientas <i className={styles.mobileVisible}>(tocá los iconos para más info)</i>
         </h2>
         <section className={styles.grid}>
           {tech.map(({ icon, title, description }, index) => (
             <Tech key={index} title={title} description={description} techIcon={icon} />
           ))}
         </section>
+
         <h2 className={utilStyles.headingXl}>Un poco sobre mí</h2>
         <section>
           <div className={styles.aboutMeText}>
@@ -101,10 +102,10 @@ export default function Home() {
             <br />
             En cuanto a mis cualidades, me considero bastante <strong>atento al detalle</strong>, soy gran partidario
             del uso de <strong>buenas practicas</strong> y de la <strong> buena organización</strong> en los proyectos.
-            <br />A pesar de que me formé en una universidad, la mayoría de tecnologías que utilizo hoy en dia las
+            <br />A pesar de que me formé en una universidad, la mayoría de tecnologías que utilizo hoy en día las
             aprendí por mi cuenta, por lo que soy principalmente <strong>autodidacta</strong>.
             <br />
-            Siempre estoy dispuesto y con ganas de aprender más.
+            Siempre buscando nuevos desafíos y con ganas de aprender más.
             <br />
             <br />
             Mí otra pasión es la <strong>aviación</strong> y mi sueño es algún día poder combinarla con el desarrollo de

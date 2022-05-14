@@ -26,18 +26,18 @@ export default function Layout({ children, home }) {
 
             <div className={styles.personalLinks}>
               <Link href="https://github.com/Facuiguacel">
-                <a>
+                <a target="_blank">
                   <SiGithub size={32} />
                 </a>
               </Link>
-              <Link href="https://www.linkedin.com/in/facuiguacel">
-                <a>
-                  <SiLinkedin size={32} />
+              <Link href="https://drive.google.com/file/d/17YJKX67B0BFcgPnygnH92HrgLn8ll00T/view?usp=sharing">
+                <a target="_blank">
+                  <strong style={{ fontSize: "25px", lineHeight: 1.3 }}>CV</strong>
                 </a>
               </Link>
-              <Link href="https://drive.google.com/file/d/17YJKX67B0BFcgPnygnH92HrgLn8ll00T/view?usp=sharing">
-                <a>
-                  <strong style={{ fontSize: "28px" }}>CV</strong>
+              <Link href="https://www.linkedin.com/in/facuiguacel">
+                <a target="_blank">
+                  <SiLinkedin size={32} />
                 </a>
               </Link>
             </div>
