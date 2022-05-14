@@ -29,3 +29,12 @@ img {
 section {
   margin-bottom: 3rem;
 }
+
+::selection {
+  color: white;
+  background: black;
+}
+::-moz-selection {
+  color: white;
+  background: black; /* Gecko Browsers */
+}
