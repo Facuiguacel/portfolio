@@ -27,18 +27,22 @@
   display: flex;
   width: max-content;
   position: relative;
+  transition: transform 0.1s linear;
 }
-.personalLinks a::before {
+.personalLinks a:hover {
+  transform: translateY(-5px);
+}
+.personalLinks a::after {
   content: "";
   height: 4px;
   width: 100%;
-  background-color: black;
-  top: -7px;
+  background-color: grey;
+  bottom: 0;
   position: absolute;
   transform: scaleX(0%);
-  transition: transform 0.1s linear;
-  transform-origin: left;
+  transition: transform 0.1s ease-in;
+  transform-origin: center;
 }
-.personalLinks a:hover::before {
-  transform: scaleX(100%);
+.personalLinks a:hover::after {
+  transform: scaleX(50%) translateY(5px);
 }
