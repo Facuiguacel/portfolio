@@ -1,0 +1,10 @@
+{
+  "es": {
+    "puesto": "Desarrollador Front-end",
+    "backToHome": "Volver al inicio"
+  },
+  "en": {
+    "puesto": "Frontend Developer",
+    "backToHome": "Back to home"
+  }
+}

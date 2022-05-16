@@ -36,5 +36,5 @@ section {
 }
 ::-moz-selection {
   color: white;
-  background: black; /* Gecko Browsers */
+  background: black;
 }

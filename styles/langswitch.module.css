@@ -1,0 +1,27 @@
+.switch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 5px;
+  min-width: 65px;
+  height: 25px;
+  /* border: 2px solid white; */
+}
+.locale {
+  padding: 0 3px;
+  margin: 0 2px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.localeSelected {
+  padding: 0 3px;
+  margin: 0 2px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  cursor: default;
+}
