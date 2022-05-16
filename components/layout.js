@@ -1,3 +1,4 @@
+import { useRouter } from "next/router";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/layout.module.css";
@@ -5,11 +6,15 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
 import { SiGithub, SiLinkedin } from "react-icons/si";
+import LangSwitch from "./langSwitch";
+import lang from "../lang/layout.json";
 
 const name = "Facundo Iguacel";
 export const siteTitle = "Facundo Iguacel";
 
 export default function Layout({ children, home }) {
+  const { locale } = useRouter();
+  const content = { ...lang[locale] };
   return (
     <div className={styles.container}>
       <Head>
@@ -22,7 +27,7 @@ export default function Layout({ children, home }) {
           <>
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
 
-            <h2 className={utilStyles.headingMd}>Desarrollador Front-end</h2>
+            <h2 className={utilStyles.headingMd}>{content.puesto}</h2>
 
             <div className={styles.personalLinks}>
               <Link href="https://github.com/Facuiguacel">
@@ -68,7 +73,7 @@ export default function Layout({ children, home }) {
       {!home && (
         <div className={styles.backToHome}>
           <Link href="/">
-            <a>← Volver al inicio</a>
+            <a>← {content.backToHome}</a>
           </Link>
         </div>
       )}

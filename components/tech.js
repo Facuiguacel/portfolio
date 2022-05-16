@@ -6,7 +6,7 @@ function NewlineText({ text }) {
   return text.split("\n").map((str, index) => <div key={index}>{str}</div>);
 }
 
-function Tech({ title, description, techIcon }) {
+function Tech({ title, description = "", techIcon }) {
   return (
     <div className={styles.tech}>
       <div className={styles.icon}>{techIcon}</div>

@@ -1,0 +1,72 @@
+{
+  "es": {
+    "subtitles": {
+      "myWork": "Mis trabajos",
+      "techs": "Herramientas que uso",
+      "techsTip": "tocá los iconos para más info",
+      "aboutMe": "Un poco sobre mí"
+    },
+    "intro": "Hola! Soy <strong>Facu</strong>, un apasionado por el desarrollo de software que le encanta crear UIs bonitas, simples e intuitivas.",
+    "aboutMe": "Pronto a recibirme de la <strong>Tecnicatura en Desarrollo de Software</strong> en la UADE. Actualmente trabajando part-time en la Municipalidad de Capitán Sarmiento desde hace más de 1 año. <br /> <br /> En cuanto a mis cualidades, me considero bastante <strong>atento al detalle</strong>, soy gran partidario del uso de <strong>buenas practicas</strong> y de la <strong> buena organización</strong> en los proyectos. <br />A pesar de que me formé en una universidad, la mayoría de tecnologías que utilizo hoy en día las aprendí por mi cuenta, por lo que soy principalmente <strong>autodidacta</strong>. <br /> Siempre buscando nuevos desafíos y con ganas de aprender más. <br /> <br /> Mí otra pasión es la <strong>aviación</strong> y mi sueño es algún día poder combinarla con el desarrollo de software.",
+    "techDescription": {
+      "React": "+1 año de experiencia.\n+5 proyectos individuales y en equipo.",
+      "Next.js": "Aprendido para crear este sitio web.",
+      "JavaScript": "+1 año exp.\n- ES6",
+      "HTML": "+1 año exp.",
+      "CSS": "+1 año exp.\n- Bootstrap",
+      "NodeJS": "Utilizado para crear el back-end de 2 proyectos de la universidad.",
+      "Express.js": "Utilizado en los 2 proyectos de NodeJS.",
+      "MySQL": "Utilizado en mi actual puesto y en multiples proyectos personales y de la universidad."
+    },
+    "myWork": {
+      "visorClima": {
+        "title": "Visor del Clima",
+        "description": "Consultá el clima de una ciudad especifica. (Por mí)"
+      },
+      "anymo": {
+        "title": "ANYMO",
+        "description": "MVP del trabajo final de la universidad. 'E-Commerce' de cajas temáticas que aprovechan el sobre-stock de los negocios. (En equipo)"
+      },
+      "capsto": {
+        "title": "Capitán Sarmiento",
+        "description": "Sitio web de la Municipalidad de Capitán Sarmiento. (Mantenimiento y nuevas funcionalidades)"
+      }
+    },
+    "lastUpdated": "última actualización: Mayo 2022"
+  },
+  "en": {
+    "subtitles": {
+      "myWork": "My work",
+      "techs": "The tools I use",
+      "techsTip": "tap the icons for more info",
+      "aboutMe": "A little bit about me"
+    },
+    "intro": "Hi! I'm <strong>Facu</strong>, someone passionate about software development that loves creating good looking, simple and intuitive UIs.",
+    "aboutMe": "Soon to graduate from UADE with a <strong>Software Development Degree</strong>. Currently working part-time in the Municipality of Capitán Sarmiento (the city where I live) for more than 1 year.<br /><br />I consider myself very <strong>attentive to detail</strong>, however I never let this distract me from achieving the goal in time. I am a firm believer in always applying <strong>good practices</strong> and having <strong>well organized</strong> projects.<br /> Even though I went to university, I had to learn on my own most of the technologies, frameworks and languages that I use today, so I am mainly <strong>self-taught</strong> when it comes to code. <br />I'm always up to new challenges and eager to learn more.<br /><br /> My other passion is <strong>aviation</strong>, and my dream is to be able to combine it with software development someday.",
+    "techDescription": {
+      "React": "+1 year of experience.\n+5 solo and team projects.",
+      "Next.js": "Learned to create this site.",
+      "JavaScript": "+1 year of exp.\n- ES6",
+      "HTML": "+1 year of exp.",
+      "CSS": "+1 year of exp.\n- Bootstrap",
+      "NodeJS": "Used to create the back-end of 2 projects from university.",
+      "Express.js": "Used in both NodeJS projects.",
+      "MySQL": "Using it in my current job and multiple uni and personal projects."
+    },
+    "myWork": {
+      "visorClima": {
+        "title": "Weather Visor",
+        "description": "Check the current weather of a specified city. (By me)"
+      },
+      "anymo": {
+        "title": "ANYMO",
+        "description": "University's final project's MVP. 'E-Commerce' of themed packages that make the most of business' unsold stock. (With a small team)"
+      },
+      "capsto": {
+        "title": "Capitán Sarmiento",
+        "description": "Website of the Municipality of Capitán Sarmiento. (Maintenance and new features)"
+      }
+    },
+    "lastUpdated": "last updated: May 2022"
+  }
+}
