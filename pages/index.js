@@ -64,7 +64,7 @@ export default function Home() {
           <ProjectCard
             title={content.myWork.anymo.title}
             image="/images/anymo-momentos.png"
-            href="https://github.com/TobiasVodo/Proyecto-Sobrestock"
+            href="https://github.com/Facuiguacel/anymo"
             description={content.myWork.anymo.description}
             techs={["React", "Express", "Axios", "MySQL", "Bootstrap"]}
             favicon={"/images/anymo.ico"}
