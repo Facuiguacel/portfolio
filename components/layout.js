@@ -31,17 +31,17 @@ export default function Layout({ children, home }) {
 
             <div className={styles.personalLinks}>
               <Link href="https://github.com/Facuiguacel">
-                <a target="_blank">
+                <a rel="noopener noreferrer" target="_blank">
                   <SiGithub size={32} />
                 </a>
               </Link>
-              <Link href="https://drive.google.com/file/d/17YJKX67B0BFcgPnygnH92HrgLn8ll00T/view?usp=sharing">
-                <a target="_blank">
+              <Link href="./Iguacel_Facundo_CV.pdf">
+                <a rel="noopener noreferrer" target="_blank">
                   <strong style={{ fontSize: "25px", lineHeight: 1.3 }}>CV</strong>
                 </a>
               </Link>
               <Link href="https://www.linkedin.com/in/facuiguacel">
-                <a target="_blank">
+                <a rel="noopener noreferrer" target="_blank">
                   <SiLinkedin size={32} />
                 </a>
               </Link>

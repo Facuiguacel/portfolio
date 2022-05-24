@@ -10,7 +10,7 @@ function ProjectCard({ title, description, image, href = "/", techs = [], favico
   return (
     <>
       <Link href={href} passHref>
-        <a target="_blank">
+        <a target="_blank" rel="noopener noreferrer">
           <div className={styles.card}>
             <div className={styles.leftSection}>
               <div className={styles.title}>
